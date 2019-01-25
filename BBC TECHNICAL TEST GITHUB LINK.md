@@ -116,7 +116,7 @@ I have tried to make the code dynamic so that adjustment can be done within this
 
 To make the environment infinite we need to allow for the elements on the edges
 of the matrix wrap round to the other side. This set of nested for loops will allow
-for this by summing a 3 by matrix that has a isolated element in the middle.
+for this by summing a 3 by 3 matrix that has a isolated element in the middle.
 When a boundary is exceeded no complex math is needed as program is only sampling one element
 away from the centre.
 <br>
